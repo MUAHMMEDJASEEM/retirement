@@ -167,6 +167,8 @@ const RetirementCalculator = () => {
           <p>Remaining Corpus to be Accumulated: ₹{result.remainingCorpus.toFixed(0)}</p>
           <p>Starting Annual Investment: ₹{result.initialInvestment.toFixed(0)}</p>
           <p><b>Disclaimer</b>: The calculations provided are estimates based on the inputs given. Actual investment returns, inflation rates, and financial conditions may vary. This tool is for informational purposes only and does not constitute financial advice. Please consult a financial advisor before making investment decisions.</p>
+          <p><b>Support My Mission</b>: If you find this calculator helpful and want to support the development of more financial tools, consider donating at <b>UPI: 8589mj@oksbi</b>. Your support helps in creating a platform that provides realistic financial insights.</p>
+
         </div>
       )}
     </div>
