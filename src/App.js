@@ -27,6 +27,9 @@ const RetirementCalculator = () => {
   };
 
   const findInitialInvestment = (target, years, returnRate, stepUpRate) => {
+    if (target===0){
+      return 0;
+    }
     let low = 1,
       high = 1e7,
       tolerance = 1e3;
