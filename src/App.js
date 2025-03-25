@@ -73,7 +73,7 @@ const RetirementCalculator = () => {
         <input
           type="range"
           min="1000"
-          max="2000000"
+          max="400000"
           step="1000"
           value={monthlyIncome}
           onChange={(e) => setMonthlyIncome(Number(e.target.value))}
